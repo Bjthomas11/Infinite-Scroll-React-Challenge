@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Images from "./components/Images";
 import "./App.css";
 
 class App extends Component {
@@ -8,9 +9,11 @@ class App extends Component {
         <div className="hero is-fullheight is-bold is-info">
           <div className="hero-body">
             <div className="container">
-              <div className="header-content">
+              <div className="header content">
                 <h2 className="subtitle is-6">Code Challenge</h2>
-                <h1 className="title is-1">Infinite Scroll Code Challenge</h1>
+                <h1 className="title is-1">
+                  Infinite Scroll Unsplash Code Challenge
+                </h1>
               </div>
               <Images />
             </div>
